@@ -88,6 +88,12 @@ def triangle_right():
 
 def triangle_left():
     print('triangle Left')
+
+    y = 400
+    for x in range(400, 0, -10):
+        y -= 10
+        draw_boy(x, y)
+
     pass
 
 def run_triangle():
