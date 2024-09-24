@@ -77,6 +77,13 @@ def triangle_bottom():
 
 def triangle_right():
     print('triangle Right')
+
+    y = 0
+
+    for x in range(800, 400, -10):
+        y += 10
+        draw_boy(x, y)
+
     pass
 
 def triangle_left():
