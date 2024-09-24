@@ -22,6 +22,10 @@ def run_top():
 
 def run_right():
     print('Right')
+
+    for y in range(550, 0, -10):
+        draw_boy(790, y)
+
     pass
 
 def run_bottom():
@@ -35,7 +39,7 @@ def run_left():
 def run_rectangle():
     print('Rectangle')
     
-    run_top()
+    # run_top()
     run_right()
     run_bottom()
     run_left()
@@ -57,7 +61,7 @@ def run_circle():
 
 while True:
     run_rectangle()
-    run_circle()
+    # run_circle()
     break
 
 close_canvas()
