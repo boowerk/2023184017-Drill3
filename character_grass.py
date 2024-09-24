@@ -69,14 +69,18 @@ def run_circle():
 
 def triangle_bottom():
     print('triangle Bottom')
+
+    for x in range(0, 800, 10):
+        draw_boy(x, 10)
+
     pass
 
 def triangle_right():
-    print('triangle Bottom')
+    print('triangle Right')
     pass
 
 def triangle_left():
-    print('triangle Bottom')
+    print('triangle Left')
     pass
 
 def run_triangle():
